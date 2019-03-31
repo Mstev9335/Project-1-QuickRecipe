@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+    <style>
+        body {
+            background: url("http://www.grewarsfarmshop.co.uk/wp-content/uploads/2017/02/List-Of-Top-Cutting-Board-Background-Images.jpg");
+            background-size: 100%;
+            background-attachment: fixed;
+        }
+    </style>
+
+    <title>Results</title>
+</head>
+
+<body onload="populateIngredients(), generateResults()">
+    <header>
+        <i id="header-logo">QR</i>
+        <i id="header-dropdown-btn" class="material-icons">arrow_drop_down</i>
+        <div id="header-search-area">
+                <input id="header-search-bar">
+                <span id="header-add-icon" class="material-icons">
+                    add
+                </span>
+                <span id="header-search-icon" class="material-icons">
+                    search
+                </span>
+         
+        </div>
+
+            
+        <div id="header-ingredients-area">
+        </div>
+
+        <!-- <button id="favorites-btn" >Favorites</button> -->
+
+    </header>
+    <div id="account-div">
+        <i id="account-btn" class="material-icons">account_circle</i>
+        <button id="login-btn">Login/Signup</button>
+        <button id="favorites-btn">Favorites</button>
+    </div>
+
+    <main>
+        <div id="results">
+            <div class="search-result">
+                <img class="result-img">
+                <div class="result-preview">
+                    <h1 class="result-title">
+                        Test Recipe
+                    </h1>
+                    <h2 class="result-preptime">
+                        4:00
+                    </h2>
+                    <h3 class="result-warnings">contains nuts</h3>
+
+                    <p class="result-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Voluptates laboriosam unde ad soluta fuga natus perferendis fugit minus beatae dicta
+                        dolorum
+                        ullam tempora, dolores, amet molestias aperiam est eum vel?
+                    </p>
+
+                    <div class="result-details">
+                        <p>
+                            more stuff goes here
+                        </p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, provident! Atque, officiis
+                            minima sapiente assumenda iste dolor excepturi et voluptate debitis! Ipsa similique fuga
+                            corporis quas corrupti illo earum tenetur.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis illum sequi, fugiat nulla
+                            nobis distinctio assumenda! Ex asperiores sit quis facilis, officia aspernatur accusantium
+                            non cum ratione ea sunt ducimus!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+
+
+ 
+
+     <!-- firebase database -->
+     <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-app.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-database.js"></script>
+     <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+ 
+     <!-- firebase authentication -->
+     <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-auth.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <script src="assets/js/style.js"></script>
+    <script src="assets/js/functionality.js"></script>
+    <!-- <script src="test.js"></script> -->
+
+</body>
+
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+    <style>
+        body {
+            background: url("http://www.grewarsfarmshop.co.uk/wp-content/uploads/2017/02/List-Of-Top-Cutting-Board-Background-Images.jpg");
+            background-size: 100%;
+            background-attachment: fixed;
+        }
+    </style>
+
+    <title>Favorites</title>
+    <button id="recipes-btn" >Recipes</button>
+</head>
+
+<body onload="populateIngredients(), generateResults()">
+    <header>
+        <i id="header-logo">QR</i>
+        <i id="header-dropdown-btn" class="material-icons">arrow_drop_down</i>
+        <div id="header-search-area">
+                <input id="header-search-bar">
+                <span id="header-add-icon" class="material-icons">
+                    add
+                </span>
+                <span id="header-search-icon" class="material-icons">
+                    search
+                </span>
+            <!--<button id="header-add-btn">Add</button>
+            <button id="header-search-btn">Search</button> -->
+        </div>
+          
+
+
+        <div id="header-ingredients-area">
+        </div>
+
+    </header>
+    <div id="account-div">
+        <i id="account-btn" class="material-icons">account_circle</i>
+        <button id="login-btn">Login/Signup</button>
+        <button id="results-link-btn">Results</button>
+    </div>
+
+    <main>
+        <div id="favorites">
+               
+            <!-- <div class="favorite-result">
+                    
+                <img class="favorite-img">
+                
+                <div class="favorite-preview">
+                       
+                    <h1 class="favorite-title">
+                          
+                    </h1>
+                    <h2 class="favorite-preptime">
+                   
+                    </h2>
+                    <h3 class="favorite-warnings"></h3>
+                   
+
+                    <p class="favorite-description">
+                         
+                    </p>
+
+                    <div class="favorite-details">
+                        
+                      
+                       
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+
+
+
+     <!-- firebase database -->
+     <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-app.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-database.js"></script>
+     <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+
+ 
+     <!-- firebase authentication -->
+     <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-auth.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <script src="assets/js/style.js"></script>
+    <script src="assets/js/functionality.js"></script>
+    <!-- <script src="test.js"></script> -->
+</body>
+
+</html>
