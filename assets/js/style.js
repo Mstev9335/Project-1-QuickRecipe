@@ -139,6 +139,19 @@ $(document).on("click", ".search-result", function (e) {
     }
 });
 
+$(document).on("click", ".favorite-result", function (e) {
+    // $(".search-result").on("click", function () {
+    if ( !$(".linkFav-button").is(e.target)) {
+        let content = $(this).find(".favorite-details");
+
+        if (content.css("max-height") === "0px") {
+            content.css("max-height", content.prop("scrollHeight") + "px");
+        } else {
+            content.css("max-height", "0px");
+        }
+    }
+});
+
 $(document).on("click", ".link-button", function(e) {
     e.preventDefault();
     e.stopPropagation();
