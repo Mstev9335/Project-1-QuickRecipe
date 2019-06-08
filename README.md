@@ -5,3 +5,11 @@ recipes that contain those ingredients.  A list of relevant recipes are then dis
 This app was created using the following technologies:  HTML, CSS, Javascript, Jquery, Firebase, the edamam API, and google user authentication
 
 Collaborators:  Matthew Stevens, Yikun Hou, Logan Hill
+
+## Technologies Used:
+* HTML
+* CSS
+* Javascript
+* Firebase
+
+### Deployed on Heroku: [Quick-Recipe](https://mstev9335.github.io/Project-1-QuickRecipe/)
