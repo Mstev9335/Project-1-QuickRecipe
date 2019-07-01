@@ -13,4 +13,4 @@ recipes that contain those ingredients.  A list of relevant recipes are then dis
 * Javascript
 * Firebase
 
-### Deployed on Heroku: [Quick-Recipe](https://mstev9335.github.io/Project-1-QuickRecipe/)
+### Link to deployed page: [Quick-Recipe](https://mstev9335.github.io/Project-1-QuickRecipe/)
