@@ -13,4 +13,13 @@ recipes that contain those ingredients.  A list of relevant recipes are then dis
 * Javascript
 * Firebase
 
+### Main page
+![start](/assets/images/recipe1.png)
+
+### Adding ingredients to search
+![start](/assets/images/recipe2.png)
+
+### Results page
+![start](/assets/images/recipe3.png)
+
 ### Link to deployed page: [Quick-Recipe](https://mstev9335.github.io/Project-1-QuickRecipe/)
